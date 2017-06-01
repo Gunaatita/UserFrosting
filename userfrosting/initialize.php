@@ -228,7 +228,7 @@ $app->hook('includes.css.register', function () use ($app){
     // Dashboard CSS
     $app->schema->registerCSS("dashboard", "timeline.css");
     $app->schema->registerCSS("dashboard", "lib/morris.css");
-    $app->schema->registerCSS("dashboard", "http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css");
+    $app->schema->registerCSS("dashboard", "https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css");
 
     // Logged-out CSS
     $app->schema->registerCSS("loggedout", "jumbotron-narrow.css");
